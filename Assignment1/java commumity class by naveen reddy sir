@@ -1,0 +1,135 @@
+package vamshitrea;
+
+public class teluskopat {
+	public static void main(String[] args) {
+		for(int i = 0;i<5;i++)
+		{
+			for(int j = 1;j<=5;j++) {
+				if (i==0||j==3) {
+					
+					System.out.print("* ");
+					
+				}
+				else {
+					System.out.print("  ");
+				}
+				
+			}
+			for(int k = 6;k<=9;k++) {
+					if (k==6||i%2==0) {
+						
+						System.out.print("* ");
+						
+					}
+					else {
+						System.out.print("  ");
+					}
+			}
+			for(int l = 10;l<=13;l++) {
+				if(l==10||i/2==2) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for (int u = 14;u<=17;u++) {
+				if((u==14&&i!=4)||(u%15==0&&i/2==2)||(u%16==0&&i/2==2)||(u==17&&i!=4)) {
+					System.out.print("* ");
+					
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int s = 18;s<=21;s++) {
+				if(i==0||i==2||i==4||(i!=3&&s==18)||(i!=1&&s==21)) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int e =22;e<=25;e++) {
+				if(e==22||(i/2==1&&e==23&&i!=3)||(i==1&&e==24)||(i==0&&e==25)||(i==3&&e==24)||(i==4&&e==25)) {
+					System.out.print("* ");
+					
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int o = 26;o<=29;o++) {
+				if(i==0||i==4||o==26||o==29)
+				System.out.print("* ");
+				else
+					System.out.print("  ");
+			}
+			    
+		
+			System.out.println();
+
+		}
+		System.out.println();
+		for(int i = 0;i<5;i++) {
+			for(int j = 1;j<=5;j++) {
+				if(i==0||i==4||(j==3&&i==1)||(j==3&&i==2)||(j==3&&i==3)) {
+				System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int n = 6;n<=10;n++) {
+				if(n==6||n==10||(i==1&&n==7)||(i==2&&n==8)|(i==3&&n==9)) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int e = 11;e<=14;e++) {
+				if(e==11||i%2==0) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for (int u = 15;u<=18;u++) {
+				if((u==15&&i!=4)||(i==4&&u==16)||(i==4&&u==17)||(i!=4&&u==18)) {
+					System.out.print("* ");
+					
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int r = 19;r<=22;r++) {
+				if(r==19||(i==0&&r==20)||(i==0&&r==21)||(i==1&&r==22)||(i==2&&r==20)||(i==2&&r==21)||(i==3&&r==21)||(i==4&&r==22)) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int o =23;o<=26;o++ ) {
+				if(i==0||i==4||o==23||o==26) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			for(int n = 27;n<=31;n++) {
+				if(n==27||n==31||(i==1&&n==28)||(i==2&&n==29)||(i==3&&n==30)) {
+					System.out.print("* ");
+				}
+				else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	
+}}
